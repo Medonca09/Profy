@@ -1,11 +1,12 @@
 import React from 'react';
+
 import './assests/styles/global.css'
+
+import Landing from './pages/Landing';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Wolrd</h1>
-      <button>Clique aqui</button>
-    </div>
+    <Landing />
   );
 }
 
